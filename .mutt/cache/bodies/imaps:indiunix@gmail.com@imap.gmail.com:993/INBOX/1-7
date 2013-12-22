@@ -1,0 +1,75 @@
+Delivered-To: indiunix@gmail.com
+Received: by 10.52.77.38 with SMTP id p6csp233073vdw;
+        Mon, 18 Nov 2013 13:10:33 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=googlemail.com; s=20120113;
+        h=mime-version:from:to:subject:message-id:date:content-type;
+        bh=0mNm+gXUp3AdJ5tNOjK3NSFs9Bhp5Ixz5CNuNsXflj0=;
+        b=c6u3nLSD41r3NJ4zzjL6MjAKc/+roAjDvtgYpzIR1uX6UGqZ5a/v+XJiEFJau7Hxn/
+         ZjxhV7I0+kWCCFRQsVTZCaEISIGYxZMbcwoNzj1WXIFWfDk7gIiHCM/VLZKgnOJ3YX0y
+         CMMDw7tJ78DSLpF+YhzSAnJjs4qgvVssBqPY2p/+0NWb9It3/HMrFOt3xEZY5doT6gFh
+         5QaLPVwx1TNUFIWIIjB4WoQYVGVq4byRehdWR99oSl0g5WJc144eanSN55MkHpWtvqy1
+         ieHmd6QhneVxPvkHVV9hh/cRtRU/CDlf90ss+ZcvBiD6xJArdTtJlyXInFzXl1p/IbPM
+         rlGg==
+X-Received: by 10.66.155.102 with SMTP id vv6mr23286842pab.89.1384809033208;
+        Mon, 18 Nov 2013 13:10:33 -0800 (PST)
+MIME-Version: 1.0
+Return-Path: <>
+Received: by 10.66.155.102 with SMTP id vv6mr29779438pab.89; Mon, 18 Nov 2013
+ 13:10:33 -0800 (PST)
+From: Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+To: indiunix@gmail.com
+X-Failed-Recipients: root@bsd1.myhome.internal
+Subject: Delivery Status Notification (Failure)
+Message-ID: <047d7b86e3a881935504eb79faed@google.com>
+Date: Mon, 18 Nov 2013 21:10:33 +0000
+Content-Type: text/plain; charset=ISO-8859-1
+
+Delivery to the following recipient failed permanently:
+
+     root@bsd1.myhome.internal
+
+Technical details of permanent failure: 
+DNS Error: Domain name not found
+
+----- Original message -----
+
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=date:from:to:subject:message-id:references:mime-version
+         :content-type:content-disposition:in-reply-to:user-agent;
+        bh=l66d0s21XFHjCHBziiHM2dyp2iT+77Nz4lAeg7KPSr4=;
+        b=MoTaG2Jt8W18aPbuHTPdnAUOdN61AkiG9CW2DaAJADKdwLlQ4//m+7NHEJGnhV0/l+
+         BbpF9/9qVWVuC8fYZ27aYK2N+4I9NPnr+qDXifUfT6VATbfF6Dw3PnrEsN5eUWjNwVQM
+         ZF85wAyRqcgRTRzXEw4CR+M+GL7Grmi9jsCwcQ2dohKyt9I8cNqtknIzJhIyUs3Ciyky
+         uihrjgkbVHKHQTpdnnrb4AKthRmJjH4i1+hIPHSugQwi1Z/SA5Qq9GWvJmzrleP7f7WV
+         1u5XskiSobEy2T8OM8pU3mRsXaZfoFJeE/JTCXgbRbapvje8xLLtnlDEr+66OoiKSfQJ
+         1NiA==
+X-Received: by 10.66.155.102 with SMTP id vv6mr23286816pab.89.1384809032963;
+        Mon, 18 Nov 2013 13:10:32 -0800 (PST)
+Return-Path: <indiunix@gmail.com>
+Received: from fire1.my.domain ([117.227.40.141])
+        by mx.google.com with ESMTPSA id ry3sm25552461pbc.8.2013.11.18.13.10.30
+        for <root@bsd1.myhome.internal>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 18 Nov 2013 13:10:32 -0800 (PST)
+Received: from localhost (0@localhost [local]);
+	by fire1.my.domain (OpenSMTPD) with ESMTPA id 0ce69ca7;
+	for <root@bsd1.myhome.internal>;
+	Tue, 19 Nov 2013 02:13:44 +0530 (IST)
+Date: Tue, 19 Nov 2013 02:13:44 +0530
+From: Charlie Root <indiunix@gmail.com>
+To: Charlie Root <root@bsd1.myhome.internal>
+Subject: Re: bsd1
+Message-ID: <20131118204344.GA24722@fire1.my.domain>
+References: <201311182042.rAIKgik5018052@bsd1.myhome.internal>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+In-Reply-To: <201311182042.rAIKgik5018052@bsd1.myhome.internal>
+User-Agent: Mutt/1.5.21 (2010-09-15)
+
+On Tue, Nov 19, 2013 at 02:12:44AM +0530, Charlie Root wrote:
+> tara at 2:12 host bsd1
+>
+We have to aggree with you
